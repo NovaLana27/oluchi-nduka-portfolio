@@ -12,7 +12,7 @@ export default function Sidebar({ setPage }) {
 const styles = {
   sidebar: {
     width: "200px",
-    background: "#1565c0",
+    background: "#a3a3d8",
     color: "white",
     height: "100vh",
     padding: "20px"
