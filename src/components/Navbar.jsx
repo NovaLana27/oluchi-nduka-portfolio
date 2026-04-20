@@ -9,7 +9,7 @@ export default function Navbar() {
 
 const styles = {
   nav: {
-    background: "#0d47a1",
+    background: "#a3a3d8",
     color: "white",
     padding: "15px",
     display: "flex",
