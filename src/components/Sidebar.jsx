@@ -14,7 +14,7 @@ const styles = {
     width: "200px",
     background: "#a3a3d8",
     color: "white",
-    height: "100vh",
+    height: "100%",
     padding: "20px"
   }
 };

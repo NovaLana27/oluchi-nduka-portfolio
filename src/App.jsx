@@ -12,7 +12,7 @@ function App() {
   const [page, setPage] = useState("home");
 
   return (
-    <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}>
+    <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column", background: "#a3a3d8" }}>
       {/* Navbar always visible */}
       <Navbar />
 
@@ -21,7 +21,7 @@ function App() {
         <Sidebar setPage={setPage} />
 
         {/* Main content area */}
-        <div style={{ padding: "20px", width: "100%" }}>
+        <div style={{ padding: "20px", width: "100%", background: "white" }}>
           {page === "home" && <Home setPage={setPage} />}
           {page === "about" && <About />}
           {page === "projects" && <Projects />}
