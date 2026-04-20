@@ -27,7 +27,7 @@ export default function Footer() {
 
 const styles = {
   footer: {
-    background: "#1565c0",
+    background: "#a3a3d8",
     color: "white",
     padding: "30px 0",
     marginTop: "auto"
@@ -48,14 +48,14 @@ const styles = {
     marginTop: "15px"
   },
   link: {
-    color: "#42a5f5",
+    color: "#a3a3d8",
     textDecoration: "none",
     fontWeight: "bold",
     transition: "color 0.3s ease"
   },
   copyright: {
     textAlign: "center",
-    borderTop: "1px solid #42a5f5",
+    borderTop: "1px solid #a3a3d8",
     paddingTop: "20px",
     fontSize: "14px"
   }

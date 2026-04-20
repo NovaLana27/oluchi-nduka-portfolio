@@ -9,7 +9,7 @@ export default function CTA({ setPage }) {
 
 const styles = {
   box: {
-    background: "#42a5f5",
+    background: "#a3a3d8",
     padding: "20px",
     color: "white",
     textAlign: "center",
